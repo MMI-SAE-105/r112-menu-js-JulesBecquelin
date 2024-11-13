@@ -7,8 +7,8 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   display: flexbox; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
   top: 0; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
   bottom: 0 ; /* Étend le menu jusqu'en bas de la page */
-  left: auto; /* Positionne le menu à gauche de la page */
-  right: auto; /* Étend le menu jusqu'à droite de la page */
+  left: 0; /* Positionne le menu à gauche de la page */
+  right: 0; /* Étend le menu jusqu'à droite de la page */
   transition : margin-right 0,4s; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
   opacity: 0; /* Rend le menu complètement transparent : https://developer.mozilla.org/fr/docs/Web/CSS/opacity */
   visibility:hidden; /* Cache le menu en le rendant invisible : https://developer.mozilla.org/fr/docs/Web/CSS/visibility#hidden  */
